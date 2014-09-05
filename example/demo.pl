@@ -11,8 +11,8 @@ BEGIN {
   set content_type => 'text/plain';
   set plugins      => {
     Redis => {
-      server   => 'sdkvsdevel.delti.com:6379',
-      password => 'Seiy2OuPhid2',
+      server   => 'localhost:6379',
+      #password => 'Enter your optional Redis password here',
     },
   };
 }

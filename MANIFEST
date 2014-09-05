@@ -11,3 +11,9 @@ example/demo.pl
 lib/Dancer2/Plugin/Redis.pm
 lib/Dancer2/Plugin/Redis/Serialization/Sereal.pm
 lib/Dancer2/Plugin/Redis/SerializationRole.pm
+t/001-use.t
+t/002-get-set.t
+t/003-expire.t
+t/TestApp/RedisMock.pm
+t/TestApp/Simple.pm
+t/Util.pm
