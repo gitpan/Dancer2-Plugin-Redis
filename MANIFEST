@@ -14,6 +14,7 @@ lib/Dancer2/Plugin/Redis/SerializationRole.pm
 t/001-use.t
 t/002-get-set.t
 t/003-expire.t
+t/004-del.t
 t/TestApp/RedisMock.pm
 t/TestApp/Simple.pm
 t/Util.pm
